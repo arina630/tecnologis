@@ -53,7 +53,7 @@ body {
     border: var(--border);
 }
 
-.card .done {
+.card.done {
     background: var(--green);
     color: #fff;
 }
@@ -95,7 +95,7 @@ body {
     display: none;
 }
 
-.modal .open {
+.modal.open {
     display: block;
     position: fixed;
     top: 50px;
@@ -124,7 +124,7 @@ body {
     background: var(--border-color);
 }
 
-.modal .open + .modal-backdrop {
+.modal.open + .modal-backdrop {
     display: block;
 }
 
@@ -132,7 +132,7 @@ body {
     display: none;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0; /*растягиваем затемнение экрана на весь экран*/
     left: 0;
     bottom: 0;
     background: rgba(0,0,0,.5);
