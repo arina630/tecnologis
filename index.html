@@ -18,18 +18,16 @@ rel="stylesheet">
     <h2 class="heading">Ваш прогресс</h2>
     <div class="progress">
       <div class="progress-bar">
-        <div class="progress-value"></div>
+        <div class="progress-value" id="progress"></div>
       </div>
     </div>
 
     <!--тут блоки будут появлться-->
     <div class="row" id="content">
-      <!-- <div class="card">
-        <h3>HTML</h3>
-      </div> -->
+       
     </div>
 
-    <form action="" class="form">
+    <form action="" class="form" id="form">
       <h2 class="heading">Добавить технологию</h2>
       <div class="form-control">
         <label for="title">Название</label>
@@ -43,15 +41,10 @@ rel="stylesheet">
     </form>
   </div>
 
+    <!--появляется модальное окно-->
   <div class="modal" id="modal">
-    <h2>JavaScript</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi accusantium illo iusto explicabo magni similique, iure rerum perferendis mollitia molestias nemo totam. Voluptate rerum, id quisquam quasi numquam exercitationem eos?</p>
-    <hr>
-    <div>
-      <input type="checkbox" id="done">
-      <label for="done">Выучил</label>
-    </div>
   </div>
+
   <div class="modal-backdrop" id="backdrop"></div>
 
   <script src="script.js"></script>

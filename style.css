@@ -64,7 +64,7 @@ body {
 }
 
 .progress {
-    margin: 0 auto 1rem;
+    margin: 0 auto 1rem; /*отступ сверху-снизу-0, центрация по горизонтали, снизу отступ 1rem ИСПОЛЬЗУЕТСЯ ДЛЯ ЦЕНТРИРОВАНИЯ БЛОЧНЫХ ЭЛ-ОВ*/
 }
 
 .progress-bar {
@@ -88,7 +88,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: var(--radius);
-    transition: .5s width;
+    transition: .5s width; /* когда значение ширины элемента меняется, оно будет изменяться не мгновенно, а плавно, в течение 0.5 секунды. */
 }
 
 .modal {
